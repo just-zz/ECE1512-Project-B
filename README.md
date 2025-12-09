@@ -13,7 +13,7 @@ pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https
 Install latest gpu driver
 
 - Instead of running the bash, run the models separately:
-- 
+
 python main.py --config config/camelyon16_medical_ssl_config.yml
 
 python main.py --config config/camelyon17_medical_ssl_config.yml
