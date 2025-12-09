@@ -11,6 +11,7 @@ python main.py --config config/camelyon17_medical_ssl_config.yml
 python main.py --config config/bracs_medical_ssl_config.yml
 
 - To create plots, run the following after running main on all datasets:
+- 
 python create_plots.py
 
 - Alternative to source .venv/bin/activate:
@@ -21,6 +22,7 @@ python create_plots.py
 CUDA v13.1
 
 pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cu130
+
 Install latest gpu driver
 
 
